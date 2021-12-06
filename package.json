@@ -1,0 +1,36 @@
+{
+    "name": "chatwoot-react",
+    "version": "0.1.0",
+    "description": "Chatwoot widget for React and NextJS.",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "files": [
+        "dist"
+    ],
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "rollup": "rollup -c",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "@canburaks/chatwoot-react"
+    },
+    "keywords": [
+        "chatwoot",
+        "chatwoot-widget"
+    ],
+    "author": "Can Burak Sofyalıoğlu",
+    "license": "MIT",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^21.0.1",
+        "@rollup/plugin-node-resolve": "^13.0.6",
+        "@rollup/plugin-typescript": "^8.3.0",
+        "@types/react": "^17.0.37",
+        "next": "^12.0.7",
+        "react": "^17.0.2",
+        "rollup": "^2.60.2",
+        "rollup-plugin-dts": "^4.0.1",
+        "typescript": "^4.5.2"
+    }
+}
